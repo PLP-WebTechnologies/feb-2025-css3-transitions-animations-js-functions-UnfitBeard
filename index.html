@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS & JS Animation with localStorage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎨 CSS & JavaScript Animation Playground</h1>
+  </header>
+
+  <main>
+    <!-- Animated Button -->
+    <button id="animateBtn">Animate Me!</button>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+      <label>
+        Choose Theme:
+        <select id="themeSelect">
+          <option value="light">🌞 Light</option>
+          <option value="dark">🌙 Dark</option>
+        </select>
+      </label>
+    </div>
+
+    <!-- User Greeting -->
+    <div class="greeting">
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button onclick="saveName()">Save Name</button>
+      <p id="welcomeMsg"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
